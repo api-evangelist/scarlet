@@ -1,7 +1,25 @@
 aid: scarlet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/scarlet.png
 name: Scarlet
-description: 'Scarlet is a company surfaced as a portfolio company of creandum and added to the API Evangelist
-  network as a stub for enrichment. Sector: health. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Scarlet is Europe''s only Notified Body specialised in software and AI-based
+  medical devices. Operating at scarlet.cc, Scarlet certifies Software as a Medical
+  Device (SaMD) and AI as a Medical Device (AIaMD) under the EU Medical Device Regulation
+  (MDR), streamlining conformity assessment, CE marking, and certificate transfers
+  for manufacturers who ship iteratively and release frequently. Backed by Creandum,
+  Scarlet was built to bring modern, fast-moving regulatory certification to AI and
+  software medical-technology companies. Scarlet is a regulatory and certification
+  services provider; it currently publishes no public developer API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/scarlet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Health
+- Medical Devices
+- Compliance
+- Certification
+- Regulatory
+- Artificial Intelligence
+- SaMD
+- Notified Body
+- MedTech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +49,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.scarletcomply.com/
+  url: https://www.scarlet.cc/
+- type: Blog
+  url: https://www.scarlet.cc/blog
+- type: Support
+  url: https://www.scarlet.cc/get-in-touch
+- type: TermsOfService
+  url: https://www.scarlet.cc/legal/general-terms
+- type: PrivacyPolicy
+  url: https://www.scarlet.cc/legal/privacy-policy
+- type: DomainSecurity
+  url: security/scarlet-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
